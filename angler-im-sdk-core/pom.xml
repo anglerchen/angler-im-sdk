@@ -4,12 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>angler-im-sdk</artifactId>
-        <groupId>io.angler.im</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>io.github.anglerchen</groupId>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>angler-im-sdk-core</artifactId>
+
+    <name>angler-im-sdk-core</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -22,7 +24,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.angler.im</groupId>
+            <groupId>io.github.anglerchen</groupId>
             <artifactId>angler-im-sdk-interfaces</artifactId>
             <version>${project.version}</version>
         </dependency>
