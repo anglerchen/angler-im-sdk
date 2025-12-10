@@ -4,7 +4,7 @@
 
   <groupId>io.github.anglerchen</groupId>
   <artifactId>angler-im-sdk</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
     <modules>
       <module>angler-im-sdk-application</module>
       <module>angler-im-sdk-domain</module>
@@ -188,25 +188,10 @@
         <extensions>true</extensions>
         <configuration>
           <publishingServerId>central</publishingServerId>
-          <autoPublish>true</autoPublish>
+<!--          <autoPublish>true</autoPublish>-->
           <deploymentName>${project.groupId}:${project.artifactId}:${project.version}</deploymentName>
         </configuration>
       </plugin>
     </plugins>
   </build>
-
-<!--  <distributionManagement>-->
-<!--    <repository>-->
-<!--      &lt;!&ndash;这里的id与settings.xml中的servers节点配置的用户ID一直，这样才能使用配置的用户去上传到maven私有仓库 &ndash;&gt;-->
-<!--      &lt;!&ndash;此仓库对应的为RELEASE版本的jar&ndash;&gt;-->
-<!--      <id>binghe</id>-->
-<!--      <url>http://192.168.106.102:8081/repository/maven-releases/</url>-->
-<!--    </repository>-->
-<!--    <snapshotRepository>-->
-<!--      &lt;!&ndash;这里的id与settings.xml中的servers节点配置的用户ID一直，这样才能使用配置的用户去上传到maven私有仓库 &ndash;&gt;-->
-<!--      &lt;!&ndash;此仓库对应的为SNAPSHOT版本的jar&ndash;&gt;-->
-<!--      <id>binghe</id>-->
-<!--      <url>http://192.168.106.102:8081/repository/maven-snapshots/</url>-->
-<!--    </snapshotRepository>-->
-<!--  </distributionManagement>-->
 </project>
