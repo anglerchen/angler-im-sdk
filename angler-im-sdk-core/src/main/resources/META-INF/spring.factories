@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.angler.im.sdk.IMAutoConfiguration
+com.jc.angler.im.sdk.IMAutoConfiguration
